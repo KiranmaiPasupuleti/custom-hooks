@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+//import UserForm from './components/UserForm';
+import UserForm1 from './components/UserForm1';
+// import CounterOne from './components/CounterOne';
+// import CounterTwo from './components/CounterTwo';
+//import DocTitleOne from './components/DocTitleOne';
+//import DocTitleTwo from './components/DocTitleTwo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DocTitleOne/>
+      <DocTitleTwo/>
+      <CounterOne/>
+      <CounterTwo/>
+      <UserForm/> */}
+      
+      <UserForm1/>
     </div>
   );
 }
